@@ -1,0 +1,11 @@
+[job_builder]
+keep_descriptions=False
+include_path=.:scripts:foreman-infra
+recursive=True
+allow_duplicates=False
+exclude=foreman-infra/yaml/defaults:foreman-infra/yaml/jobs
+
+#[jenkins]
+#user=<jenkin-user>
+#password=<jenkins-api-key>
+#url=<jenkins-url>
